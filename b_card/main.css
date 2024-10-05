@@ -1,0 +1,25 @@
+body {background-color: darkcyan;
+  margin: 0;
+  font-size: 64px;
+  font-family: serif;}
+
+p {text-transform: uppercase;
+  letter-spacing: 1px;
+  color: orangered;
+  font-weight: bold;
+  text-align: center;
+  line-height: .1em;}
+.bigger {font-size: 2em;
+  padding-top: .2em;}
+
+div {margin-top: 40vh;}
+.mobile-only {display: none;}
+
+@media only screen and (max-width: 768px) {
+  body {background-color: darkorange;}
+  p {color: lightcyan;}
+  div {margin-top: 45vh;}
+  .mobile-only {display: block;}
+  .desktop-only {display: none;}
+}
+
